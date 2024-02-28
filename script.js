@@ -15,6 +15,7 @@ function voices(){
     }
 }
 
+
 synth.addEventListener("voiceschanged", voices);
 
 function textToSpeech(text){
